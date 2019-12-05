@@ -1,0 +1,17 @@
+digraph Tree {
+node [shape=box, style="filled, rounded", color="white", fontname=helvetica] ;
+graph [ranksep=equally, splines=polyline] ;
+edge [fontname=helvetica] ;
+1 [label="Is the weather nice outside?", fillcolor="#399de53c"] ;
+2 [label="Does my supervisor have questions?", fillcolor="#399de53c"] ;
+3 [label="Yes", fillcolor="#39e581ff"] ;
+4 [label="No", fillcolor="#d739e5a0"] ;
+5 [label="Yes", fillcolor="#39e581ff"] ;
+1 -> 5 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+1 -> 2 [labeldistance=2.5, labelangle=-45, headlabel="True"] ;
+2 -> 4 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+2 -> 3 [labeldistance=2.5, labelangle=-45, headlabel="True"] ;
+{rank=same ; 1 } ;
+{rank=same ; 2 } ;
+{rank=same ; 3; 4; 5 } ;
+}

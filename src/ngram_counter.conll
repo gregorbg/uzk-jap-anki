@@ -1,0 +1,8 @@
+1	Examples	Example	NOUN	S	Number=Plur	5	nsubj	_	_
+2	that	that	PRON	PR	PronType=Rel	3	nsubj	_	_
+3	matter	matter	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	1	acl:relcl	_	SpaceAfter=No
+4	are	be	AUX	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	hard	hard	ADJ	A	Degree=Pos	0	root	_	_
+6	to	to	PART	PART	_	7	mark	_	_
+7	find	find	VERB	V	VerbForm=Inf	5	advcl	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	5	punct	_	_
